@@ -1,0 +1,22 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.trimAutoWhitespace": true,
+  "editor.tabSize": 2,
+
+  "files.eol": "\n",
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": false,
+
+  "[markdown]": { "editor.defaultFormatter": "yzhang.markdown-all-in-one" },
+  "markdown.replaceSmartQuotes": true,
+  "markdown.occurrencesHighlight.enabled": true,
+  "markdown.extension.tableFormatter.normalizeIndentation": true,
+
+  "javascript.suggest.jsdoc.generateReturns": true,
+  "javascript.suggest.completeJSDocs": true,
+  "javascript.suggest.autoImports": true,
+  "js/ts.implicitProjectConfig.checkJs": true
+}

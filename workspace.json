@@ -1,0 +1,14 @@
+{
+  "$schema": "https://pastebin.com/raw/RsuWYzL3",
+
+  "root": "src",
+  "types": "types",
+  "out": "docs",
+
+  "lang": "en",
+  "title": "Home",
+
+  "links": {
+    "DisQada": "https://haikal.assayyaad.pro"
+  }
+}

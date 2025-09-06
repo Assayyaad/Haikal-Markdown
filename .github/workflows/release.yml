@@ -1,0 +1,37 @@
+name: إصدار
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+
+    name: إصدار
+    runs-on: ubuntu-latest
+    steps:
+      - name: الفحص
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: إعداد Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 'lts/*'
+          registry-url: https://registry.npmjs.org
+
+      - name: تثبيت التبعيات
+        run: npm ci --ignore-scripts && npm i --no-save @semantic-release/changelog @semantic-release/git
+
+      - name: توليد الأنواع
+        run: npx @disqada/workspace .\workspace.json -ct
+
+      - name: الإصدار
+        run: npx semantic-release
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

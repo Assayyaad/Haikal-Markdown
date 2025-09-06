@@ -1,0 +1,135 @@
+# الناتج المولد
+config/
+types/
+docs/
+
+# السجلات
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# تقارير التشخيص (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# بيانات التشغيل
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# الدليل للمكتبات المؤشرة التي تولدها jscoverage/JSCover
+lib-cov
+
+# دليل التغطية المستخدم من قبل أدوات مثل istanbul
+coverage
+*.lcov
+
+# تغطية اختبار nyc
+.nyc_output
+
+# تخزين مؤقت لـ Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# دليل تبعيات Bower (https://bower.io/)
+bower_components
+
+# تكوين node-waf
+.lock-wscript
+
+# الإضافات الثنائية المترجمة (https://nodejs.org/api/addons.html)
+build/Release
+
+# دلائل التبعيات
+node_modules/
+jspm_packages/
+
+# دليل تبعيات Snowpack (https://snowpack.dev/)
+web_modules/
+
+# ذاكرة التخزين المؤقت لـ TypeScript
+*.tsbuildinfo
+
+# دليل ذاكرة التخزين المؤقت لـ npm الاختياري
+.npm
+
+# ذاكرة التخزين المؤقت لـ eslint الاختيارية
+.eslintcache
+
+# ذاكرة التخزين المؤقت لـ stylelint الاختيارية
+.stylelintcache
+
+# ذاكرة التخزين المؤقت لـ Microbundle
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# سجل REPL الاختياري
+.node_repl_history
+
+# ناتج 'npm pack'
+*.tgz
+
+# ملف النزاهة لـ Yarn
+.yarn-integrity
+
+# ملفات متغيرات البيئة dotenv
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# ذاكرة التخزين المؤقت لـ parcel-bundler (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# ناتج بناء Next.js
+.next
+out
+
+# ناتج بناء/توليد Nuxt.js
+.nuxt
+dist
+
+# ملفات Gatsby
+.cache/
+# قم بالتعليق على السطر الخاص بالعامة إذا كان مشروعك يستخدم Gatsby وليس Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# ناتج بناء vuepress
+.vuepress/dist
+
+# دليل مؤقت وذاكرة التخزين المؤقت لـ vuepress v2.x
+.temp
+.cache
+
+# ذاكرة التخزين المؤقت والملفات المولدة لـ Docusaurus
+.docusaurus
+
+# دلائل Serverless
+.serverless/
+
+# ذاكرة التخزين المؤقت لـ FuseBox
+.fusebox/
+
+# ملفات DynamoDB المحلية
+.dynamodb/
+
+# ملف منفذ TernJS
+.tern-port
+
+# يخزن إصدارات VSCode المستخدمة لاختبار إضافات VSCode
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
