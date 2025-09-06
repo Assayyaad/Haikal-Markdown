@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "description": "أدوات هيكلية صارمة لملفات ماركداون",
   "homepage": "https://haikal.assayyaad.pro",
-  "repository": "github:Assayyaad/Hakial-Markdown",
+  "repository": "github:Assayyaad/Haikal-Markdown",
   "bugs": {
-    "url": "https://github.com/Assayyaad/Hakial-Markdown/issues"
+    "url": "https://github.com/Assayyaad/Haikal-Markdown/issues"
   },
   "keywords": [
     "markdown",
