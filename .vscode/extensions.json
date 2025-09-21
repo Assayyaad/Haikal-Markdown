@@ -1,13 +1,13 @@
 {
   "recommendations": [
+    "idered.npm",
     "usernamehw.errorlens",
-    "christian-kohler.path-intellisense",
     "esbenp.prettier-vscode",
     "yoavbls.pretty-ts-errors",
     "editorconfig.editorconfig",
-    "chamboug.js-auto-backticks",
     "yzhang.markdown-all-in-one",
-    "idered.npm",
-    "christian-kohler.npm-intellisense"
+    "chamboug.js-auto-backticks",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense"
   ]
 }
