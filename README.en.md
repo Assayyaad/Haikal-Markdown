@@ -2,8 +2,8 @@
 
 <div style="text-align: center;">
 
-[![github](https://img.shields.io/badge/Assayyaad/Markdown--Haikal-000000?logo=github&logoColor=white)](https://www.github.com/Assayyaad/Haikal-Markdown)
-[![npm](https://img.shields.io/badge/markdown--haikal-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/haikal-markdown)
+[![github](https://img.shields.io/badge/Assayyaad/Haikal--Markdown-000000?logo=github&logoColor=white)](https://www.github.com/Assayyaad/Haikal-Markdown)
+[![npm](https://img.shields.io/badge/haikal--markdown-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/haikal-markdown)
 
 ![version](https://img.shields.io/npm/v/haikal-markdown.svg?label=latest&logo=npm)
 ![monthly downloads](https://img.shields.io/npm/dm/haikal-markdown.svg?logo=npm)
