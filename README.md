@@ -276,4 +276,4 @@ import type { ParsedMarkdownFile, Section } from 'haikal-markdown/types'
 
 هذا برنامج حر وغير مقيد يُطلق في المجال العام.
 
-لمزيد من المعلومات، يرجى الرجوع إلى [LICENSE](./LICENSE) أو <https://unlicense.org>
+لمزيد من المعلومات، يرجى الرجوع إلى [LICENSE](./LICENSE) أو <https://gitlab.com/-/snippets/4888680>

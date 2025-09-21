@@ -273,4 +273,4 @@ Contributions welcome! Please ensure all markdown follows Haikal specifications.
 
 This is free and unencumbered software released into the public domain.
 
-For more information, please refer to [LICENSE](./LICENSE) or <https://unlicense.org>
+For more information, please refer to [LICENSE](./LICENSE) or <https://gitlab.com/-/snippets/4888680>
